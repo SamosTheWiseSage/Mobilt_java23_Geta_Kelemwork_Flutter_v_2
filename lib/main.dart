@@ -53,11 +53,11 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController textEditingController = TextEditingController();
   void ToastAlarm(){
     Fluttertoast.showToast(
-        msg: "you cant be none! type a name good sir/madam",
+        msg: "you cant be no one! type a name good sir/madam",
         toastLength: Toast.LENGTH_SHORT,
         gravity: ToastGravity.CENTER,
         timeInSecForIosWeb: 1,
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.black,
         webBgColor: "linear-gradient(to right, #00b09b, #96c93d)",
         textColor: Colors.white,
         fontSize: 16.0
@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Image.network('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/'
                     'Owl._Birds_-_defenders_of_the_forest._USSR_stamp._1979.jpg/'
                     '640px-Owl._Birds_-_defenders_of_the_'
-                    'forest._USSR_stamp._1979.jpg', cacheHeight: 400,cacheWidth: 400,)
+                    'forest._USSR_stamp._1979.jpg', cacheHeight: 200,cacheWidth: 200,)
 
             ),
             Row(

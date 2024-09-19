@@ -75,10 +75,10 @@ class _secondPageState extends State<secondPage> {
             Row(
               children: <Widget>[
                 const Expanded(
-                  child: Text('Deliver features faster', textAlign: TextAlign.center),
+                  child: Text('Enjoy', textAlign: TextAlign.center),
                 ),
                 const Expanded(
-                  child: Text('Craft beautiful UIs', textAlign: TextAlign.center),
+                  child: Text('beautiful Owls', textAlign: TextAlign.center),
                 ),
                 Expanded(
                    child: FilledButton(onPressed: ()=>{
